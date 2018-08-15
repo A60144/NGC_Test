@@ -10,3 +10,5 @@ spec:
       resources:
         limits:
           nvidia.com/gpu: 1
+  imagePullSecrets:
+  - name: harbor_admin
