@@ -63,5 +63,5 @@ docker push 172.22.0.9/ngc/nvcr.io/nvidia/theano:18.07
 docker push 172.22.0.9/ngc/nvcr.io/nvidia/torch:18.07-py2
 ```
 ```shell=
-kubectl create secret docker-registry harbor_admin --docker-server=172.22.0.9 --docker-username=admin --docker-password=Harbor12345 --docker-email=admin@example.com
+kubectl create secret docker-registry harbor-admin --docker-server=172.22.0.9 --docker-username=admin --docker-password=Harbor12345 --docker-email=admin@example.com
 ```
